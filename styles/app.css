@@ -1,0 +1,57 @@
+.main {
+    display: flex;
+}
+
+.content {
+    flex-grow: 0.6;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+}
+#menu{
+    flex-grow: 0.2;
+    height: 800px;
+    overflow: hidden;
+    overflow-y: scroll;
+    border: black 1px solid;
+}
+li{
+    cursor: pointer;
+}
+#stats{
+    flex-grow: 0.2;
+    height: 800px;
+    overflow: hidden;
+    overflow-y: scroll;
+    border: black 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+#colorStats {
+    margin-top: 12px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#manaStats {
+    margin-left: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.widgets{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#totalCardsCount {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 25px;
+    text-align: center;
+}
